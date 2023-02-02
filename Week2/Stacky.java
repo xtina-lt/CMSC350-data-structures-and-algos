@@ -55,6 +55,7 @@ public class Stacky {
         stack.contains(4); // true
         stack.addAll(collect);
         stack.addAll(arrList);
+        arrList.addAll(collect);
     }
 }
 
