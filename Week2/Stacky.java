@@ -41,14 +41,20 @@ public class Stacky {
   
   
     public static void main (String[] args){
+        Collection<Integer> collect = new ArrayList<>(Arrays.asList(1, 2, 3));
+        ArrayList<Integer> arrList = new ArrayList<>(Arrays.asList(1, 2, 3));
         Stack<Integer> stack = new Stack<Integer>();
   
-        s_push(stack);
-        s_pop(stack);
-        s_push(stack);
-        s_peek(stack);
-        s_search(stack, 2);
-        s_search(stack, 6);
+        // s_push(stack);
+        // s_pop(stack);
+        // s_push(stack);
+        // s_peek(stack);
+        // s_search(stack, 2);
+        // s_search(stack, 6);
+        stack.size(); // 5
+        stack.contains(4); // true
+        stack.addAll(collect);
+        stack.addAll(arrList);
     }
 }
 
