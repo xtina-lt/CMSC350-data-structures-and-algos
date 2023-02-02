@@ -44,7 +44,6 @@ public class Stacky {
         Collection<Integer> collect = new ArrayList<>(Arrays.asList(1, 2, 3));
         ArrayList<Integer> arrList = new ArrayList<>(Arrays.asList(1, 2, 3));
         Stack<Integer> stack = new Stack<Integer>();
-  
         // s_push(stack);
         // s_pop(stack);
         // s_push(stack);
